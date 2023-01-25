@@ -1,0 +1,70 @@
+*/
+Rotate a Matrix by 180 degree
+
+Given a square matrix, the task is that we turn it by 180 degrees in an anti-clockwise direction without using any extra space.
+Eg:
+Input :  
+1 2 3
+4 5 6
+7 8 9
+Output :
+9 8 7
+6 5 4
+3 2 1
+
+Input Format
+
+First Line: n, where n is the no. of rows and columns. n <=10.
+Next n lines, row wise elements in matrix separated by a space.
+
+Output Format
+
+Matrix rotated to 180 degree anti clockwise.
+
+Testcase 1
+Input
+
+3
+1 2 3
+4 5 6
+7 8 9
+
+
+Output
+
+9 8 7 
+6 5 4 
+3 2 1
+
+*/
+
+#include<stdio.h>
+
+int main()
+{
+int n;
+scanf("%d",&n);
+char arr[n][n];
+
+for(int i=0;i<n;i++)
+{
+    for(int j=0;j<n;j++)
+    {
+        scanf("%d",&arr[i][j]);
+    }
+
+}
+
+
+for(int k=0;k<n;k++)
+{
+    for(int l=0;l<n;l++)
+
+    {  
+        printf("%d ",arr[n-k-1][n-l-1]);
+    }
+    printf("\n");
+
+}
+
+}
