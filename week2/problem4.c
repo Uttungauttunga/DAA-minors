@@ -1,4 +1,4 @@
-*/
+/*
 Flood fill Algorithm
 
 In MS-Paint, when we take the brush to a pixel and click, the color of the region of that pixel is replaced with a new selected color. Following is the problem statement to do this task. 
