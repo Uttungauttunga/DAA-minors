@@ -1,4 +1,4 @@
-*/
+/*
 
 Count number of islands where every island is row-wise and column-wise separated.
 
