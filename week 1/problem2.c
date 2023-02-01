@@ -1,4 +1,4 @@
-*/
+/*
 Dutch National Flag Problem
 
 Sort the given array a[]. Array a[] consists of only 0s, 1s, and 2s.
