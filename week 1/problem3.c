@@ -1,4 +1,4 @@
-*/
+/*
 To check if a given square matrix is identity matrix.
 
 An Identity Matrix is a square matrix in which all the elements of the principal or main diagonal are 1’s and all other elements are 0’s.
