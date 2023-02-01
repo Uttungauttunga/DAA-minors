@@ -1,4 +1,4 @@
-*/
+/*
 Find the number of binary digits in the binary representation of a positive decimal integer using recursion.
 
 Eg: 256 in binary form is 100000000. Therefore no. of digits = 9
