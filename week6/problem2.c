@@ -1,4 +1,4 @@
-*/
+/*
 
 Count of smaller numbers after self
 
